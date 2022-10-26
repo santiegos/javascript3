@@ -1,0 +1,39 @@
+
+h1{
+    text-align: center;
+}
+.imgEntradas{
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+
+}
+
+.colorBoton{
+    color: white;
+    background-color: cadetblue;
+}
+
+.colorBoton:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+.glass{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
